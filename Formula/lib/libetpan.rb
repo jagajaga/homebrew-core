@@ -5,8 +5,8 @@ class Libetpan < Formula
   head "https://github.com/dinhvh/libetpan.git", branch: "master"
 
   stable do
-    url "https://github.com/dinhvh/libetpan/archive/refs/tags/1.9.4.tar.gz"
-    sha256 "82ec8ea11d239c9967dbd1717cac09c8330a558e025b3e4dc6a7594e80d13bb1"
+    url "https://github.com/dinhvh/libetpan/archive/refs/tags/1.10.tar.gz"
+    sha256 "0ca9a79f66155e12156727856a40031030f5760f7bc88b29119e851b9c96e9eb"
 
     # Backport fix for CVE-2020-15953
     patch do
